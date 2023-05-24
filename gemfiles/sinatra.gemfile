@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 
+gem "appraisal", git: "https://github.com/thoughtbot/appraisal"
 gem "sinatra", "2.0.8.1"
 
 gemspec path: "../"
