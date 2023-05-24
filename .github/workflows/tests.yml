@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       COVERAGE_RUBY_VERSION: 2.6
-      BUNDLE_PATH: vendor/bundle
     strategy:
       fail-fast: false
       matrix:
